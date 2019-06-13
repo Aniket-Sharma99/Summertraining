@@ -14,4 +14,4 @@ class employee(models.Model):
     eno=models.IntegerField()
     esal=models.IntegerField()
     ecity=models.CharField(max_length=20)
-    Aniket=customManager()
+    objects=customManager()
