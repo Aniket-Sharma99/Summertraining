@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1> List dashboard</h1>
+    <table>
+      <thead>
+        <th>Employee No</th>
+        <th>Employee Name</th>
+        <th>Employee esal</th>
+        <th>Employee ecity</th>
+          </thead>
+          {% for employee in e1 %}
+          <tr>
+            <td>{{employee.eno}}</td>
+            <td>{{employee.ename}}</td>
+            <td>{{employee.esal}}</td>
+            <td>{{employee.ecity}}</td>
+            </tr>
+            {% endfor %}
+            </<table>
+  </body>
+</html>
